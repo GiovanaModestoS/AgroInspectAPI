@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddDbContext<AgroContext>(options =>
-   options.UseSqlServer("Server=localhost;Database=agroinspect;User Id=sa;Password=123;TrustServerCertificate=True;"));
+   options.UseSqlServer("Server=localhost;Database=agroinspect;User Id=sa;Password=Giovana@2026;TrustServerCertificate=True;"));
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
